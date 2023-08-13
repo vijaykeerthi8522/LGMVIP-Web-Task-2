@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import './index.css'
 
 const Navbar = styled.nav`
-  background-color: white;
+  background-image: linear-gradient(to right, #ffffff, #000000);
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -17,6 +17,8 @@ const Button = styled.button`
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
+  width: 120px;
+  height: 50px;
   border-radius: 4px;
   cursor: pointer;
 `
@@ -77,7 +79,7 @@ function App() {
     <div>
       <Navbar>
         <img
-          src="https://shorturl.at/quzK9"
+          src="https://res.cloudinary.com/dorqso4uz/image/upload/v1691920284/v_name_logo_jcc9vy.jpg"
           alt="Brand Name"
           className="logo"
         />

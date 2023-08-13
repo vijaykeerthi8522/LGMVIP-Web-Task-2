@@ -2,11 +2,11 @@
   padding-right: 50px;
 }
 .container {
-  background-image: linear-gradient(to right, #a34673, #1e66d9, #872f34);
+  background-image: linear-gradient(to right, #f4c330ea 30%, #00ff00);
   height: 100vh;
 }
 .logo {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 100px;
   border-radius: 10px;
 }
